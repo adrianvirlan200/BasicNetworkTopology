@@ -45,6 +45,7 @@
 - a network was created between each 2 routers. The IP addresses assigned to each router interface belong to the networks visible in the image above.
 - in order for routers to ensure packet routing, the routing table was updated as follows:
 For Router0:
+
 | Network  | Next Hop |
 | ------------- | ------------- |
 | 192.168.24.0/24  | Router1*  |
@@ -52,9 +53,9 @@ For Router0:
 | 192.168.0.0/26 |Router2*| 
 | 192.168.0.64/26 |Router2* | 
 | 192.168.0.128/26 |Router2* | 
-| 10.0.0.16/30 | Router2*| 
-| 10.0.0.24/30 | Router1* | 
-| 10.0.0.40/30 |Router1*|
+| 10.0.0.16/30 | Router2* | 
+| 10.0.0.24/30 | Router1* |
+| 10.0.0.40/30 | Router1* |
 *It is actually the IP address of the interface with which the specified Router is connected to Router0.
 There is no need to specify the next hop for networks 192.168.254.0/24, 192.168.255.0/24, 10.0.0.0/30, 10.0.0.8/30, 10.0.0.32/30, because these networks are directly connected to Router0.
 
