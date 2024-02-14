@@ -1,7 +1,7 @@
 # BasicNetworkTopology
  ![img](https://github.com/adrianvirlan200/BasicNetworkTopology/assets/74298808/4031cad4-73b5-4a5f-83bf-e1a4bea4a507)
  
- A project in cisco packet tracer that contains the basic elements of a network like: 19 hosts, 9 switches, 4 routers, vlans, routers on a stick, hdcp servers
+ A project in cisco packet tracer that contains the basic elements of a network like: 19 hosts, 9 switches, 4 routers, vlans, routers on a stick, hdcp servers.
 
  # 1.The network under Router0
 ![image](https://github.com/adrianvirlan200/BasicNetworkTopology/assets/74298808/cdded73e-168f-4323-b469-1dd575885855)
