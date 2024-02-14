@@ -3,7 +3,7 @@
  
  A project in cisco packet tracer that contains the basic elements of a network like: 19 hosts, 9 switches, 4 routers, vlans, routers on a stick, hdcp servers.
 
- # 1.The network under Router0
+# 1.The network under Router0
 ![image](https://github.com/adrianvirlan200/BasicNetworkTopology/assets/74298808/cdded73e-168f-4323-b469-1dd575885855)
 
 - this network contains 3 VLANs
@@ -13,7 +13,7 @@
 - the links between switch8-switch5 and switch5-router0 are truck mode access. In this way, the vlans can be transferred from both switches to the router.
 - router0 plays the role of a router on a stick, in order to ensure the inter-vlan routing. The interface connected to switch5 has 2 subinterfaces, every one has an ip address form the vlan1 and vlan2 domain. Those ip address have the role of default gateway for the their hosts.
 
-  # 2. The network under Router1
+# 2. The network under Router1
   ![image](https://github.com/adrianvirlan200/BasicNetworkTopology/assets/74298808/5b27ab0f-644a-460f-bdf3-0a54d8a2ab4e)
 
   - this network contains one vlan and only one network - 192.168.24.0/24
@@ -26,7 +26,7 @@
 - this network contains only one vlan, and all switches are set in access mode
 - the main difference between the other networks and this one consist of the DHCP server. By using this server, the host can automatically receive ip addresses (from 192.168.200.0/24 domain), network masks(/24), DNS servers and the default gateway address from the server itself, instead of manually setting them.
 
-#4. The network under Router2
+# 4. The network under Router2
 ![image](https://github.com/adrianvirlan200/BasicNetworkTopology/assets/74298808/f41a91f6-0334-4a9d-a1d5-968d8e9bb999)
 
 - this network contains 3 vlans: 10, 20 and 30. Every vlan contains hosts that have been configurated IP addresses from 3 subnetworks
